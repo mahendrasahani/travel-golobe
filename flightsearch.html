@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assest/css/style.css" />
+    <link rel="stylesheet" href="assest/css/form.css" />
+    <link rel="stylesheet" href="https://choices-js.github.io/Choices/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="assets/css/choices.min.css">
+    <link rel="stylesheet" href="https://booking.webestica.com/assets/css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container jkfdsbd">
+          <form class="d-flex" role="search">
+            <button class="btn text-dark fw-6"><img src="assest\img\airplane.png" alt=""> Find
+            Flight</button>
+            <button class="btn text-dark fw-6"><img src="assest\img\ion_bed.png" alt=""> Find
+            Flight</button>
+          </form>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <a class="navbar-brand py-2" href="#"><img src="assest\img\Logo.png" alt=""></a>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn fw-6">Login</button>
+              <button class="btn btn-danger fw-6" type="submit">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+    <main>
+
+      <section class="py-0" >
+        <div class="jsk123 p-0 ">
+          <!-- Background image -->
+          <div class="banner">
+            <div class="opa"></div>
+            <!-- Banner title -->
+            <div class="row px-0">
+              
+            </div>
+      
+          </div>
+      
+          <!-- Booking from START -->
+          <div class="container">
+           <div class="row">
+            <div class="col-lg-12 mx-auto">
+                <form class="bg-white rounded-5 position-relative px-3 px-sm-4 pt-4 mb-4 mb-sm-0 mt-n6 shadow">
+                  <div class="row position-relative">
+                
+                    <!-- Nav tabs START -->
+                    <div class="col-lg-6">
+                      <ul class="nav nav-pills nav-pills-dark" id="pills-tab" role="tablist">
+                        <li class="">
+                          <button class="btn fw-semibold border-0 active" data-bs-toggle="pill" data-bs-target="#flight"><img
+                              src="assest\img\airplane.png" alt="">
+                            Login</button>
+                        </li>
+                        <li class="">
+                          <button class="btn fw-semibold border-0" data-bs-toggle="pill" data-bs-target="#stay"><img
+                              src="assest\img\ion_bed.png" alt="">
+                            Login</button>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- Nav tabs END -->
+                    <!-- Ticket Travelers -->
+                
+                
+                
+                    <!-- Tab content START -->
+                    <div class="tab-content" id="pills-tabContent">
+                      <!-- One way tab START -->
+                      <div class="tab-pane fade show active" id="flight">
+                        <div class="row g-2">
+                          <div class="col">
+                            <div class="row g-2">
+                              <div class="col-md col-lg position-relative">
+                                <div class=" form-fs-lg rounded-3 h-100 w-100">
+                                  <!-- Input field -->
+                                  <label class="mb-1">From</label>
+                                  <select class="form-select js-choice" data-search-enabled="true">
+                                    <option value="">Select location</option>
+                                    <option>San Jacinto, USA</option>
+                                    <option>North Dakota, Canada</option>
+                                    <option>West Virginia, Paris</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <!-- <button class="btn btn-white shadow btn-round"><i class="bi bi-arrow-left-right"></i></button> -->
+                              <div class="col-md col-lg">
+                                <div class=" form-fs-lg rounded-3 h-100">
+                                  <!-- Input field -->
+                                  <label class="mb-1">To</label>
+                                  <select class="form-select js-choice" data-search-enabled="true">
+                                    <option value="">Select location</option>
+                                    <option>San Jacinto, USA</option>
+                                    <option>North Dakota, Canada</option>
+                                    <option>West Virginia, Paris</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                
+                          <div class="col-7">
+                            <div class="row g-2">
+                              <div class="col-lg">
+                                <div class=" form-fs-lg rounded-3 h-100">
+                                  <!-- Input field -->
+                                  <label class="mb-1">Trip</label>
+                                  <select class="form-select js-choice" data-search-enabled="false">
+                                    <option value="">Return</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-lg">
+                                <div class=" form-fs-lg rounded-3 h-100">
+                                  <label class="mb-1">Departure</label>
+                                  <input type="text" class="form-control flatpickr" id="rangeDate" data-date-format="d M Y"
+                                    placeholder="Select date">
+                                </div>
+                              </div>
+                              <div class="col-lg-3 ms-auto">
+                                <div class=" form-fs-md">
+                                  <label class="mb-1">Passenger - Class</label>
+                                  <select class="form-select js-choice">
+                                    <option value="">1</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row my-4">
+                          <div class="col-12 text-end">
+                            <a class="btn fw-normal text-dark fs-14" href="#">+ Add Promo Code</a>
+                            <a class="btn btn-primary fs-14" href="#">Show Filghts</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- One way tab END -->
+                
+                      <!-- Round way tab END -->
+                      <div class="tab-pane fade" id="stay">
+                        <div class="row g-2">
+                          <div class="col">
+                            <div class="row g-2">
+                              <div class="col-md col-lg position-relative">
+                                <div class=" form-fs-lg rounded-3 h-100 w-100">
+                                  <!-- Input field -->
+                                  <label class="mb-1">From</label>
+                                  <select class="form-select js-choice" data-search-enabled="true">
+                                    <option value="">Select location</option>
+                                    <option>San Jacinto, USA</option>
+                                    <option>North Dakota, Canada</option>
+                                    <option>West Virginia, Paris</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <button class="btn btn-white shadow btn-round"><i class="bi bi-arrow-left-right"></i></button>
+                              <div class="col-md col-lg">
+                                <div class=" form-fs-lg rounded-3 h-100">
+                                  <!-- Input field -->
+                                  <label class="mb-1">To</label>
+                                  <select class="form-select js-choice" data-search-enabled="true">
+                                    <option value="">Select location</option>
+                                    <option>San Jacinto, USA</option>
+                                    <option>North Dakota, Canada</option>
+                                    <option>West Virginia, Paris</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        
+                          <div class="col-7">
+                            <div class="row g-2">
+                              <div class="col-lg">
+                                <div class=" form-fs-lg rounded-3 h-100">
+                                  <!-- Input field -->
+                                  <label class="mb-1">Trip</label>
+                                  <select class="form-select js-choice" data-search-enabled="false">
+                                    <option value="">Return</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-lg">
+                                <div class=" form-fs-lg rounded-3 h-100">
+                                  <label class="mb-1">Departure</label>
+                                  <input type="text" class="form-control flatpickr" id="rangeDate" data-date-format="d M Y"
+                                    placeholder="Select date">
+                                </div>
+                              </div>
+                              <div class="col-lg-3 ms-auto">
+                                <div class=" form-fs-md">
+                                  <label class="mb-1">Passenger - Class</label>
+                                  <select class="form-select js-choice">
+                                    <option value="">1</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row my-4">
+                          <div class="col-12 text-end">
+                            <a class="btn fw-normal text-dark fs-14" href="#">+ Add Promo Code</a>
+                            <a class="btn btn-primary fs-14" href="#">Show Filghts</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Round way tab END -->
+                    </div>
+                    <!-- Tab content END -->
+                  </div>
+                </form>
+            </div>
+           </div>
+          </div>
+          <!-- Booking from END -->
+        </div>
+      </section>
+      
+
+      <section class="my-5">
+        <div class="container-fluid p-0">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                  <div>
+                    <h3>Let's go places together</h3>
+                    <p>
+                      Going somewhere to celebrate this season? Whether you’re going home or somewhere to roam, we’ve got <br> the
+                      travel tools to get you to your destination.
+                    </p>
+                  </div>
+                  <div>
+                    <button type="button" class="btn border">See All</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <img src="assest\img\Rectangle.svg" alt="" class="w-100">
+          </div>
+        </div>
+      </section>
+
+      <section class="my-5">
+        <div class="container-fluid p-0">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                  <div>
+                    <h3>Fall into travel</h3>
+                    <p>
+                      Going somewhere to celebrate this season? Whether you’re going home or somewhere to roam, we’ve got <br> the
+                      travel tools to
+                      get you to your destination.
+                    </p>
+                  </div>
+                  <div>
+                    <button type="button" class="btn border">See All</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row trevel-card">
+              <div class="col-lg-12">
+                <div class="">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="card border-0">
+                        <img src="assest/img/card1.svg" class="card-img-top" alt="travel1">
+                        <div class="card-body text-white w-100 ">
+                          <div class="d-flex justify-content-between align-items-end">
+                            <div>
+                              <h5 class="m-0">Melbourne</h5>
+                              <p>An amazing journey
+                              </p>
+                            </div>
+                            <div>
+                              <h2>$ 700 </h2>
+                            </div>
+                          </div>
+            
+                          <a href="#" class="btn w-100">Book Flight</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="card border-0">
+                        <img src="assest/img/card2.svg" class="card-img-top" alt="travel1">
+                        <div class="card-body text-white w-100 ">
+                          <div class="d-flex justify-content-between align-items-end">
+                            <div>
+                              <h5 class="m-0">Melbourne</h5>
+                              <p>An amazing journey
+                              </p>
+                            </div>
+                            <div>
+                              <h2>$ 700 </h2>
+                            </div>
+                          </div>
+            
+                          <a href="#" class="btn w-100">Book Flight</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="card border-0">
+                        <img src="assest/img/card3.svg" class="card-img-top" alt="travel1">
+                        <div class="card-body text-white w-100 ">
+                          <div class="d-flex justify-content-between align-items-end">
+                            <div>
+                              <h5 class="m-0">Melbourne</h5>
+                              <p>An amazing journey
+                              </p>
+                            </div>
+                            <div>
+                              <h2>$ 700 </h2>
+                            </div>
+                          </div>
+            
+                          <a href="#" class="btn w-100">Book Flight</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="card border-0">
+                        <img src="assest/img/card4.svg" class="card-img-top" alt="travel1">
+                        <div class="card-body text-white w-100 ">
+                          <div class="d-flex justify-content-between align-items-end">
+                            <div>
+                              <h5 class="m-0">Melbourne</h5>
+                              <p>An amazing journey
+                              </p>
+                            </div>
+                            <div>
+                              <h2>$ 700 </h2>
+                            </div>
+                          </div>
+            
+                          <a href="#" class="btn w-100">Book Flight</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-5">
+        <div class="container-fluid p-0">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                  <div>
+                    <h3>Fall into travel</h3>
+                    <p>
+                      Going somewhere to celebrate this season? Whether you’re going home or somewhere to roam, we’ve got <br>
+                      the travel tools to
+                      get you to your destination.
+                    </p>
+                  </div>
+                  <div>
+                    <button type="button" class="btn border">See All</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 ">
+                <div class="">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="border-0 rounded-4 second h-100 w-100 position-relative">
+                        <div class="d-flex flex-row w-100 ">
+                          <div class="col-lg-10">
+                            <div>
+                              <h2>Backpacking <br> Sri Lanka</h2>
+                            </div>
+                          </div>
+                          <div class="col-lg-2">
+                            <div class="card rounded-4">
+                              <p class="pt-2 mb-1">From</p>
+                              <h3>$700</h3>
+                            </div>
+                          </div>
+            
+            
+                        </div>
+                        <div class="row">
+                          <p>
+                            Traveling is a unique experience as it's the best way to unplug from the pushes and pulls of daily life.
+                            It helps us to
+                            forget about our problems, frustrations, and fears at home. During our journey, we experience life in
+                            different ways. We
+                            explore new places, cultures, cuisines, traditions, and ways of living.
+                          </p>
+                          <div class="position-absolute" style="bottom: 4%;">
+                            <button class="btn bg-white" style="width: 95%;" type="button">Book Flight</button>
+                          </div>
+                        </div>
+            
+                        
+            
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <img src="assest\img\travel-img1.svg" class="w-100" alt="img">
+                        </div>
+                        <div class="col-lg-6">
+                          <img src="assest\img\travel-img2.svg" class="w-100" alt="img">
+                        </div>
+                      </div>
+                      <div class="row mt-3">
+                        <div class="col-lg-6">
+                          <img src="assest\img\travel-img3.svg" class="w-100" alt="img">
+                        </div>
+                        <div class="col-lg-6">
+                          <img src="assest\img\travel-img4.svg" class="w-100" alt="img">
+                        </div>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
+
+    <footer class="pt-5" >
+      <section class="Subscribe container-fluid position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <h3>Subscribe <br> Newsletter</h3>
+              <h4>The Travel</h4>
+              <p>Get inspired! Receive travel discounts, tips and behind the scenes stories.</p>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" style="width: 367px;" type="search" placeholder="Your email address">
+                <button class="btn btn-danger" type="submit">Subscribe</button>
+              </form>
+            </div>
+            <div class="col-lg-4">
+              <img src="assest\img\open-mail.svg" alt="" class="img-fluid w-100">
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="footer pb-5">
+        <div class="container">
+          <!-- Row START -->
+          <div class="row g-4">
+        
+            <!-- Widget 1 START -->
+            <div class="col-lg-2">
+              <!-- logo -->
+              <a href="index.html">
+                <img class="h-40px" src="assest\img\footer-logo.svg" alt="logo">
+              </a>
+        
+              <div class="d-flex gap-2 mt-4">
+                  <a href="#"><img src="assest\img\fb.svg" class="img-fluid" alt=""></a>
+                  
+                  <a href=""><img src="assest\img\twiter.svg" class="img-fluid" alt=""></a>
+
+                  <a href=""><img src="assest\img\youtube.svg" class="img-fluid" alt=""></a>
+
+                  <a href=""><img src="assest\img\chore.svg" class="img-fluid" alt=""></a>
+                  
+                
+              </div>
+        
+            </div>
+            <!-- Widget 1 END -->
+        
+            <!-- Widget 2 START -->
+            <div class="col-lg-8 ms-auto">
+              <div class="row g-4">
+        
+        
+        
+                <!-- Link block -->
+                <div class="col-2 col-md-3">
+                  <h5 class=" mb-2 mb-md-4">Our Destinations</h5>
+                  <ul class="nav flex-column text-primary-hover">
+                    <li><a href="#">Canada</a></li>
+                    <li><a href="#">Alaksa</a></li>
+                    <li><a href="#">France</a></li>
+                    <li><a href="#">Iceland</a></li>
+        
+                  </ul>
+                </div>
+        
+                <!-- Link block -->
+                <div class="col-2 col-md-2">
+                  <h5 class=" mb-2 mb-md-4">Our Activities</h5>
+                  <ul class="nav flex-column text-primary-hover">
+                    <li><a href="#">Northern Lights</a></li>
+                    <li><a href="#">Cruising & sailing</a></li>
+                    <li><a href="#">Multi-activities</a></li>
+                    <li><a href="#">Kayaing</a></li>
+        
+                  </ul>
+                </div>
+        
+                <!-- Link block -->
+                <div class="col-2 col-md-3">
+                  <h5 class=" mb-2 mb-md-4">Travel Blogs</h5>
+                  <ul class="nav flex-column text-primary-hover">
+                    <li><a href="#">Bali Travel Guide</a></li>
+                    <li><a href="#">Sri Lanks Travel Guide</a></li>
+                    <li><a href="#">Peru Travel Guide</a></li>
+                    <li><a href="#">Bali Travel Guide</a></li>
+                  </ul>
+                </div>
+        
+                <!-- Link block -->
+                <div class="col-2 col-md-2">
+                  <h5 class=" mb-2 mb-md-4">About Us</h5>
+                  <ul class="nav flex-column text-primary-hover">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Work with us</a></li>
+                    
+                  </ul>
+                </div>
+        
+                <!-- Link block -->
+                <div class="col-2 col-md-2">
+                  <h5 class=" mb-2 mb-md-4">Contact Us</h5>
+                  <ul class="nav flex-column text-primary-hover">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Work with us</a></li>
+                  </ul>
+                </div>
+        
+              </div>
+            </div>
+            <!-- Widget 2 END -->
+        
+          </div><!-- Row END -->
+        
+        
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="assest/js/choices.min.js"></script>
+    <script src="assest/js/main.js"></script>
+    <script src="assest/js/main.js"></script>
+    
+
+  </body>
+</html>
