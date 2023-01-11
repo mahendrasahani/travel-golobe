@@ -1,0 +1,92 @@
+
+/* BREADCRUMB SECTION OF THE PAGE  */
+
+.breadcrumb-one{
+  text-decoration: none !important;
+  color: red !important;
+}
+.top-rate-breadcrumb{
+  color: #FF8682 !important;
+  font-weight: 700;
+}
+
+
+.overview-review-font{
+    font-size: 12px !important;
+} 
+.card-background{
+  background-color: #8DD3BB !important;
+  border-color:#8DD3BB !important ;
+}
+.card-border{
+    border-color:#8DD3BB !important ;
+
+}
+
+.review-comment{
+  margin-left:1rem;
+}
+
+
+
+/* AVAILABLE SECTION OF THE PAGE */
+
+.available-btn{
+  background-color:#8DD3BB !important ;
+  border: none !important;
+  color: #000 !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  padding:0.6rem 1.5rem 0.6rem 1.5rem !important;
+  border-radius: 4px !important;
+}
+.available-btn-two{
+   background-color:#fff !important ;
+  border: 1px solid #8DD3BB !important;
+  color: #000 !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  padding:0.6rem 1.5rem 0.6rem 1.5rem !important;
+  border-radius: 4px !important;
+}
+
+.available-btn-three{
+  background-color:#8DD3BB !important ;
+  border: none !important;
+  color: #000 !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  padding:0.8rem 1.5rem 0.8rem 1.5rem !important;
+  border-radius: 4px !important;
+}
+
+/* LOCATION MAP SECTION OF THE PAGE */
+
+.location-map-main{
+  margin-top: 2rem !important;
+}
+.location-map-image{
+  margin-top: 2.5rem !important;
+}
+.location-icon-para{
+  margin-right: 10px !important;
+}
+
+/* AMENITIES SECTION OF THE PAGE */
+
+.amenitiesimage{
+  margin-right: 10px !important;
+}
+.amenities-main-container{
+  margin-top: 5rem !important;
+}
+.color-twenty-four{
+  color:red !important;
+}
+
+/* COMMENT SECTION OF THE PAGE */
+
+
+.flag-comment{
+  padding-left: 3rem !important;
+}

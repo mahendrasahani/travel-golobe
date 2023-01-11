@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    .narendra {
+        
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        background-color: #FAFBFC;
+
+        header{
+            .jkfdsbd{
+                top: 30px;
+            }
+        }
+
+        main{
+            .btn-see{
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 17px;
+                            letter-spacing: 0em;
+                            text-align: center;
+
+                            
+                            border-radius: 4px;
+                            padding: 8px 16px 8px 16px;
+                            border: 1px solid #8DD3BB;
+            }
+            h2{
+                //styleName: Montserrat/Semibold/32px;
+                font-family: Montserrat;
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 39px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+            p{
+                //styleName: Montserrat/Regular/16px;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+
+            section{
+                .container-fluid{
+                    
+
+                    .banner{
+                        background-image: url(../img/home-top-img.svg); 
+                        background-position: center center; 
+                        background-repeat: no-repeat; 
+                        background-size: cover;
+                        position: relative;
+                        min-height: 500px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .row{
+                            position: relative;
+                            z-index: 2;
+                        }
+                        
+                    }
+
+                    .text-heading{
+                        font-weight: 600;
+                        h1{
+                            font-size: 60px;
+                            color: #fff;
+                        }
+
+                        h2{
+                            font-size: 40px;
+                            color:#fff;
+                        }
+
+                        p{
+                            color: #fff;
+                            font-weight: 500;
+                        }
+                    }
+
+                    form{
+                        label, .choices__item, .flatpickr, .flatpickr-day,
+                        input{
+                            font-size: 14px !important;
+                        }
+                    }
+
+                }
+
+                .categery {
+                        h2{
+                            //styleName: Montserrat/Semibold/32px;
+                            font-family: Montserrat;
+                            font-size: 32px;
+                            font-weight: 600;
+                            line-height: 39px;
+                            letter-spacing: 0em;
+                            text-align: left;
+
+                        }
+                        p{
+                            //styleName: Montserrat/Regular/16px;
+                            font-family: Montserrat;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            letter-spacing: 0em;
+                            text-align: left;
+
+                        }
+                        button{
+                            //styleName: Montserrat/Medium/14px;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 17px;
+                            letter-spacing: 0em;
+                            text-align: left;
+
+                           
+                            border-radius: 4px;
+                            padding: 8px 16px 8px 16px;
+                            border: 1px solid #8DD3BB;
+
+                        }
+                        
+                        .card-cat{
+                                background: #FFFFFF;
+                                /* Cards Shadow */
+                                box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+                                border-radius: 16px;
+                                width: 100%;
+
+                                h5{
+                                    //styleName: Montserrat/Semibold/16px;
+                                    font-family: Montserrat;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    line-height: 20px;
+                                    letter-spacing: 0em;
+                                    text-align: left;
+                                    color: #112211;
+
+                                }
+                                p{
+                                    //styleName: Montserrat/Medium/14px;
+                                    font-family: Montserrat;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 17px;
+                                    letter-spacing: 0em;
+                                    text-align: left;
+                                    color: #112211;
+
+                                }
+                        }
+                    }
+
+                
+            }
+            .sec-3{
+                .cat{
+                    .card{
+                        width: 100%;
+                        height: 100%;
+                        }
+                    .card-body{
+                            position: absolute;
+                            bottom: 0;
+
+                        p{
+                        //styleName: Montserrat/Regular/16px;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 0em;
+                        text-align: center;
+
+                        }
+                        h5{
+                            //styleName: TradeGothic/Bold/40px;
+                            font-family: TradeGothic LT Extended;
+                            font-size: 40px;
+                            font-weight: 700;
+                            line-height: 51px;
+                            letter-spacing: 0em;
+                            text-align: center;
+                            color: #fff;
+
+                        } 
+                        a{
+                        background: #8DD3BB;
+                        color: #112211;
+                        border-radius: 4px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 16px;
+                        gap: 4px;
+
+                        //styleName: Montserrat/Medium/14px;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 17px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                    }
+                  
+                }
+                
+
+            }
+            .sec-4{
+                .card{
+                    background: #FFFFFF;
+                    box-shadow: 2px 4px 16px rgba(17, 34, 17, 0.1);
+                    border-radius: 20px;
+                    h5{
+                        //styleName: TradeGothic/Bold/24px;
+                        font-family: TradeGothic LT Extended;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 30px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #112211;
+
+                    }
+                    p{
+                        //styleName: Montserrat/Medium/14px;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 17px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #112211;
+
+                    }
+                    a{
+                        //styleName: TradeGothic/Bold/14px;
+                        font-family: TradeGothic LT Extended;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 18px;
+                        letter-spacing: 0em;
+                        text-align: right;
+                        color: #112211;
+
+                    }
+                    i{
+                        color: #FFC107;
+                    }
+                    h4{
+                        //styleName: TradeGothic/Bold/14px;
+                        font-family: TradeGothic LT Extended;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 18px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #112211;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    header {
+        h4 {
+            font-size: 12px;
+
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 17px;
+            letter-spacing: 0em;
+        }
+        nav {
+            color: #ffffff;
+        }
+        button {
+            //styleName: Montserrat/Semibold/14px;
+            font-family: Montserrat !important;
+            font-size: 14px !important;
+            font-weight: 600 !important;
+            line-height: 17px !important;
+            letter-spacing: 0em !important;
+            text-align: left;
+        }
+    }
+    main {
+        
+        section {
+            h3 {
+                font-family: Montserrat;
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 39px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            p {
+                //styleName: Montserrat/Regular/16px;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            .btn {
+                //styleName: Montserrat/Medium/14px;
+                font-family: Montserrat !important;
+                font-size: 14px !important;
+                font-weight: 500 m !important;
+                line-height: 17px !important;
+                letter-spacing: 0em !important;
+                text-align: left;
+            }
+            .trevel-card .card-body{
+                position: absolute;
+                bottom: 0;
+                color: #fff;
+            }
+            
+        }
+
+        section{
+            .jsk123{
+                
+
+                .banner{
+                    background-image: url(../img/Frame_36.png); 
+                    background-position: center center; 
+                    background-repeat: no-repeat; 
+                    background-size: cover;
+                    position: relative;
+                    min-height: 500px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .row{
+                        position: relative;
+                        z-index: 2;
+                    }
+                    
+                }
+
+                .text-heading{
+                    font-weight: 600;
+                    h1{
+                        font-size: 60px;
+                        color: #fff;
+                    }
+
+                    h2{
+                        font-size: 40px;
+                        color:#fff;
+                    }
+
+                    p{
+                        color: #fff;
+                        font-weight: 500;
+                    }
+                }
+
+                form{
+                    label, .choices__item, .flatpickr, .flatpickr-day,
+                    input{
+                        font-size: 14px !important;
+                    }
+                }
+
+            }
+
+            .trevel-card{
+                .card{
+                        width: 100%;
+                        height: 100%;
+                }
+               .card-body{
+                    position: absolute;
+                    bottom: 0;
+
+                    a{
+                        background: #8DD3BB;
+                        color: #112211;
+                        border-radius: 4px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 16px;
+                        gap: 4px;
+
+                        //styleName: Montserrat/Medium/14px;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 17px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                    
+               }
+               h5{
+                    //styleName: Montserrat/Semibold/24px;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 29px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #fff;
+               }
+               h2{
+                //styleName: Montserrat/Semibold/24px;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 29px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #fff;
+
+               }
+               p{
+                    //styleName: Montserrat/Regular/14px;
+                   //styleName: Montserrat/Regular/14px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #fff;
+
+
+               }
+            }
+            .second {
+
+                background: #8DD3BB;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 24px;
+                
+                h2{
+                    //styleName: TradeGothic/Bold/40px;
+                    font-family: TradeGothic LT Extended;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 51px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+
+                .card{
+                    p{
+                        //styleName: TradeGothic/Regular/14px;
+                        font-family: TradeGothic LT Extended;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        letter-spacing: 0em;
+                        text-align: center;
+                    }
+                    h3{
+                        //styleName: Montserrat/Semibold/20px;
+                        font-family: Montserrat;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: center;
+
+                    }
+
+
+                }
+                p{
+                    //styleName: Montserrat/Regular/14px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #000;
+
+                }
+                button{
+                    //styleName: Montserrat/Medium/14px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: center;
+
+                }
+            }
+
+            
+        }
+       
+
+        
+        
+    }
+
+    footer{
+        .footer{
+            background-color: #8DD3BB;
+            padding-top: 120px;
+            margin-top: -87px;
+        }
+        .Subscribe{
+            .container{
+                
+                padding: 0 24px;
+                background: #CDEAE1;
+                /* Cards Shadow */
+
+                box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+                border-radius: 20px;
+
+                h3{
+                    font-family: TradeGothic LT Extended;
+                    font-size: 44px;
+                    font-weight: 700;
+                    line-height: 54px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+                h4{
+                    //styleName: TradeGothic/Bold/20px;
+                    font-family: TradeGothic LT Extended;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+                p{
+                    //styleName: Montserrat/Medium/16px;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+                button{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 8px 16px;
+                    gap: 4px;
+
+                    /* Blackish Green */
+
+                    background: #112211;
+                    border-radius: 4px;
+
+                    //styleName: Montserrat/Semibold/14px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+            }
+        }
+
+        h5{
+            //styleName: TradeGothic/Bold/16px;
+            font-family: TradeGothic LT Extended;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+        a{
+            //styleName: Montserrat/Medium/14px;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #112211 !important;
+            text-decoration: none;
+
+        }
+    }
+}
