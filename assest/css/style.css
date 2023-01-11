@@ -30,7 +30,7 @@
 }
 
 .review-comment{
-  margin-left:1rem;
+  margin-left:1rem !important;
 }
 
 /* hello world from kd  */
@@ -88,6 +88,13 @@
 }
 .color-twenty-four{
   color:red !important;
+}
+
+.Vergood-reviews{
+  font-size: 3.5rem !important;
+}
+.verified-review{
+  margin-bottom: 0rem !important;
 }
 
 /* COMMENT SECTION OF THE PAGE */
@@ -577,14 +584,5 @@ body footer a {
   color: #112211 !important;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
-
-
-
-
-
-
-
-
-
 
 
