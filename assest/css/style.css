@@ -584,6 +584,9 @@ body footer a {
 .font-mont{
   font-family: Montserrat !important;
 }
+.font-heading{
+  font-family: 'TradeGothic LT Extended' !important;
+}
 
 .overview-review-font{
     font-size: 12px !important;
@@ -595,6 +598,9 @@ body footer a {
 .card-border{
     border-color:#8DD3BB !important ;
 
+}
+.radio-btn-pay-in{
+  margin-right: 1.4rem !important;
 }
 
 .review-comment{
