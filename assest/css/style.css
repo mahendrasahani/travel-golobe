@@ -697,3 +697,7 @@ body footer a {
   border-radius: 5px !important;
   border: 2px solid #8DD3BB !important;
 }
+
+.asidecontent-right{
+  margin-left: 1rem !important;
+}
