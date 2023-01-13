@@ -695,7 +695,11 @@ body footer a {
 .signup-login-icons{
   padding: 0 6rem 0 6rem !important;
   border-radius: 5px !important;
-  border: 2px solid #8DD3BB !important;
+  border: 1.5px solid #8DD3BB !important;
+}
+.signup-loginemail-border{
+    border: 1px solid #8DD3BB !important;
+
 }
 
 .asidecontent-right{
