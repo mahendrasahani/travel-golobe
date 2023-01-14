@@ -718,3 +718,13 @@ body footer a {
 .background-bookingthree-maincard{
   background-color: #EBF6F2 !important;
 }
+#mainfirst-detailthree{
+  padding-left:2rem !important;
+}
+.mainfirst-detail-clock{
+  margin-left:0.5rem !important;
+}
+.Add-new-booking-detailthree{
+  font-size: 12px !important;
+  margin: 0 0 0 0 !important;
+}
