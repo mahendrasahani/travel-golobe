@@ -714,3 +714,7 @@ body footer a {
   border: 2.2px dashed #8DD3BB ;
   /* padding-bottom:2rem !important; */
 }  
+
+.background-bookingthree-maincard{
+  background-color: #EBF6F2 !important;
+}
