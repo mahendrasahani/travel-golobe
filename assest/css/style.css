@@ -705,3 +705,12 @@ body footer a {
 .asidecontent-right{
   margin-left: 1rem !important;
 }
+
+.Add-new-booking{
+  font-size: 12px !important;
+}
+ .card-add-bookingtwo{
+
+  border: 2.2px dashed #8DD3BB ;
+  /* padding-bottom:2rem !important; */
+}  
