@@ -748,3 +748,33 @@ body footer a {
   padding-left: 0.5rem !important;
   padding-top: 0.5rem !important;
 }
+
+span{
+  border: none !important;
+}
+.hotel-listing-sliderMain{
+  margin-top: 4rem !important;
+}
+
+.hotel-listing-viewPlace{
+  padding-top: 3rem !important;
+}
+
+/* .hotel-listing-ViewButton{
+  width: 22rem !important;
+  height: 2.4rem !important;
+} */
+
+@media only screen and (min-width:1024px){
+  .hotel-listing-ViewButton{
+  width: 22rem !important;
+  height: 2.4rem !important;
+}
+}
+
+@media only screen and (max-width:1024px){
+.hotel-listing-ViewButton{
+  width: 15rem !important;
+  height: 2.4rem !important;
+}
+}

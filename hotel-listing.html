@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel-listing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assest/css/style.css" />
+    <link rel="stylesheet" href="assest/css/form.css" />
+    <link rel="stylesheet" href="https://choices-js.github.io/Choices/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="assets/css/choices.min.css">
+    <link rel="stylesheet" href="https://booking.webestica.com/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://jqueryui.com/slider/resources/demos/style.css">
+</head>
+
+<body>
+    <header class="bg-white" style="box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container jkfdsbd">
+                <form class="d-flex" role="search">
+                    <button class="btn text-dark fw-6"><img src="assest\img\airplane.png" alt=""> Find
+                        Flight</button>
+                    <button class="btn text-dark fw-6"><img src="assest\img\ion_bed.png" alt=""> Find
+                        Flight</button>
+                </form>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <a class="navbar-brand py-2" href="#"><img src="assest\img\Logo.png" alt=""></a>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn fw-6">Login</button>
+                        <button class="btn btn-danger fw-6" type="submit">Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="py-0">
+
+
+            <!-- Booking from START -->
+            <div class="container mt-5">
+                <form class="bg-white rounded-5  px-3 px-sm-4 pt-4 pb-4 mb-4 mb-sm-0  shadow">
+                    <div classs="row ">
+
+                        <!-- Tab content START -->
+                        <div class="tab-content" id="pills-tabContent">
+                            <!-- One way tab START -->
+                            <div class="tab-pane fade show active" id="pills-one-way">
+                                <div class="row g-2">
+                                    <div class="col">
+                                        <div class="row g-2">
+                                            <div class="col-md col-lg position-relative">
+                                                <div class=" form-fs-lg rounded-3 h-100 w-100">
+                                                    <!-- Input field -->
+                                                    <label class="mb-1">From</label>
+                                                    <select class="form-select js-choice" data-search-enabled="true">
+                                                        <option value="">Select location</option>
+                                                        <option>San Jacinto, USA</option>
+                                                        <option>North Dakota, Canada</option>
+                                                        <option>West Virginia, Paris</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- <button class="btn btn-white shadow btn-round"><i
+                                                                                                                class="bi bi-arrow-left-right"></i></button> -->
+                                            <div class="col-md col-lg">
+                                                <div class=" form-fs-lg rounded-3 h-100">
+                                                    <!-- Input field -->
+                                                    <label class="mb-1">To</label>
+                                                    <select class="form-select js-choice" data-search-enabled="true">
+                                                        <option value="">Select location</option>
+                                                        <option>San Jacinto, USA</option>
+                                                        <option>North Dakota, Canada</option>
+                                                        <option>West Virginia, Paris</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-7">
+                                        <div class="row g-2">
+                                            <div class="col-lg">
+                                                <div class=" form-fs-lg rounded-3 h-100">
+                                                    <!-- Input field -->
+                                                    <label class="mb-1">Trip</label>
+                                                    <select class="form-select js-choice" data-search-enabled="false">
+                                                        <option value="">Return</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg">
+                                                <div class=" form-fs-lg rounded-3 h-100">
+                                                    <label class="mb-1">Departure</label>
+                                                    <input type="text" class="form-control flatpickr" id="rangeDate"
+                                                        data-date-format="d M Y" placeholder="Select date">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 ms-auto">
+                                                <div class=" form-fs-md">
+                                                    <label class="mb-1">Passenger - Class</label>
+                                                    <select class="form-select js-choice">
+                                                        <option value="">1</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-1">
+
+                                                <button class="btn  fs-14 mt-4" href="#"><img class="img-fluid"
+                                                        src="assest\img\flight-listing\search-button.svg"
+                                                        alt=""></button>
+                                            </div>
+                                        </div>
+                                        <div class="row g-2">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- One way tab END -->
+
+                            <!-- Round way tab END -->
+                            <div class="tab-pane fade" id="pills-round-trip">
+                                <div class="row g-4">
+
+                                </div>
+                            </div>
+                            <!-- Round way tab END -->
+                        </div>
+                        <!-- Tab content END -->
+                    </div>
+                </form>
+            </div>
+            <!-- Booking from END -->
+
+        </section>
+
+        <section class="">
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-3">
+                        <div class="fliters">
+                            <h4>Filters</h4>
+
+                            <div class="accordion border-0" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne">
+                                            Price
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapsed border-0">
+                                        <div class="accordion-body">
+                                            <div class="pt-2">
+                                                <div id="slider-range"></div>
+                                                <p class="mt-2">
+                                                    <input type="text" id="amount" readonly
+                                                        style="border:0; color:#f6931f; font-weight:bold;">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                            Rating
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapsed show"
+                                        aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <ol id="selectable">
+                                                <li class="ui-state-default p-2">0+</li>
+                                                <li class="ui-state-default p-2">1+</li>
+                                                <li class="ui-state-default p-2">2+</li>
+                                                <li class="ui-state-default p-2">3+</li>
+
+
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour">
+                                            Airlines
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapsed show"
+                                        aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="form-check">
+                                                <input class="form-check-input " type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Emirated
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    Fly Dubai
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    Qatar
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    Etihad
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive">
+                                            Trips
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapsed show"
+                                        aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Round trip
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    On Way
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Round trip
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    My Dates Are Flexible
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-9 contant">
+                        <div id="tabs" class="border-0">
+                            <ul class="d-flex p-3 bg-white shadow">
+                                <li class="flex-fill bg-white border-0 borrder-end p-0"><a href="#tabs-1"
+                                        class="text-center">
+                                        <h6 class="text-center">Cheapest</h6>
+                                        <p class="text-center text-dark">$99</p>
+                                    </a></li>
+                                <li class="flex-fill bg-white border-0"><a href="#tabs-2">
+                                        <h6 class="text-center">Best</h6>
+                                        <p class="text-center text-dark">$99</p>
+                                    </a></li>
+
+                                <li class="flex-fill bg-white border-0"><a href="#tabs-3">
+                                        <h6 class="text-center">Quickest</h6>
+                                        <p class="text-center text-dark">$99</p>
+                                    </a></li>
+                                <li class="flex-fill bg-white border-0"><a href="#tabs-3" class="mt-2">
+                                        Other sort
+                                    </a></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="card-body pt-4 p-0">
+                            <div class="vstack gap-4">
+                        
+                                <div class="card shadow">
+                                    <div class="row g-4">
+                                        <!-- Card img -->
+                                        <div class="col-md-5 position-relative">
+                        
+                                            <!-- Overlay item -->
+                                            <div class="position-absolute top-0 start-0 z-index-1 mt-3 ms-4">
+                                                <div class="badge text-bg-danger">30% Off</div>
+                                            </div>
+                        
+                                            <!-- Slider START -->
+                                            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+                                                integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+                                                crossorigin="anonymous">
+                        
+                                            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                                                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                                                crossorigin="anonymous"></script>
+                                            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                                                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                                                crossorigin="anonymous"></script>
+                                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                                                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                                                crossorigin="anonymous"></script>
+                        
+                                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="/assest/Images/hotel-listing/hotelone.svg"
+                                                            alt="First slide">
+                        
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="/assest/Images/hotel-listing/hotelone.svg"
+                                                            alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="/assest/Images/hotel-listing/hotelone.svg"
+                                                            alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="/assest/Images/hotel-listing/hotelone.svg"
+                                                    role="button" data-slide="prev">
+                                                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                <span class="sr-only">Previous</span> -->
+                                                </a>
+                                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                                    data-slide="next">
+                                                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                <span class="sr-only">Next</span> -->
+                                                </a>
+                                            </div>
+                                            <!-- Slider END -->
+                        
+                                            <!-- Button -->
+                        
+                                        </div>
+                                        <!-- Card body -->
+                                        <div class="col-md-7 hotel-listing-sliderMain">
+                                            <div class=" ">
+                                                <div class="container-fluid p-0 ">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                                                    <div>
+                        
+                                                                        <h3 class="fs-5" into travel>CVK Park Bosphorus Hotel Istanbul
+                                                                        </h3>
+                        
+                                                                        <p class="font-mont"> <img
+                                                                                src="https://raw.githubusercontent.com/mahendrasahani/travel-golobe/main/assest/Images/Locationicon.png"
+                                                                                alt="">
+                                                                            Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437
+                                                                        </p>
+                        
+                        
+                        
+                                                                        <div class="d-flex">
+                                                                            <span class="fs-6 fw-light font-mont"><img
+                                                                                    src="https://raw.githubusercontent.com/mahendrasahani/travel-golobe/main/assest/Images/staricon.svg"><img
+                                                                                    src="https://raw.githubusercontent.com/mahendrasahani/travel-golobe/main/assest/Images/staricon.svg"><img
+                                                                                    src="https://raw.githubusercontent.com/mahendrasahani/travel-golobe/main/assest/Images/staricon.svg"><img
+                                                                                    src="https://raw.githubusercontent.com/mahendrasahani/travel-golobe/main/assest/Images/staricon.svg"><img
+                                                                                    src="https://raw.githubusercontent.com/mahendrasahani/travel-golobe/main/assest/Images/staricon.svg">
+                                                                                <span class="ml-1">5 Star Hotel</span></span>
+                        
+                                                                            <p class="font-mont pl-4 ml-2"> <img
+                                                                                    src="/assest//Images/Favourates/teacupicon.svg" alt="">
+                                                                                <span class="font-weight-bold">20+ </span> Aminities
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="d-flex pt-3">
+                                                                            <div><button class="border bg-transparent rounded px-2">4.2</button>
+                                                                            </div>
+                                                                            <div class="review-comment">
+                                                                                <p class="font-mont"> <span class="font-weight-bold">Very
+                                                                                        Good</span> 371 reviews</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                        
+                        
+                        
+                                                                    <div class="d-flex flex-column text-center ">
+                                                                        <p class="overview-review-font align-items-start">starting from</p>
+                                                                        <div class="top-rate-breadcrumb fs-5 font-mont">$240/ <span
+                                                                                class="fs-6 font-mont">night</span></div>
+                                                                        <p class="overview-review-font align-items-top">excl. tax</p>
+                                                                    </div>
+                                                                </div>
+                        
+                                                                <div class=" mt-4 hotel-listing-viewPlace">
+                                                                    <button type="button" class="btn btn-secondary available-btn-two"><img
+                                                                            src="https://raw.githubusercontent.com/mahendrasahani/travel-golobe/main/assest/Images/hearticon.svg"
+                                                                            alt=""></button>
+                        
+                                                                    <button type="button"
+                                                                        class="btn btn-secondary  font-mont hotel-listing-ViewButton text-center">View
+                                                                        Place
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="assest/js/choices.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="assest/js/main.js"></script>
+    <script>
+        $(function ()
+        {
+            $("#slider-range").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [75, 300],
+                slide: function (event, ui)
+                {
+                    $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                }
+            });
+            $("#amount").val("$" + $("#slider-range").slider("values", 0) +
+                " - $" + $("#slider-range").slider("values", 1));
+
+            $("#slider-range2").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [75, 300],
+                slide: function (event, ui)
+                {
+                    $("#time").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                }
+            });
+            $("#time").val("$" + $("#slider-range2").slider("values", 0) +
+                " - $" + $("#slider-range").slider("values", 1));
+                
+        });
+    </script>
+    <style>
+        #selectable .ui-selecting {
+            background: #FECA40;
+        }
+
+        #selectable .ui-selected {
+            background: #F39814;
+            color: white;
+        }
+
+        #selectable {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 450px;
+        }
+
+        #selectable li {
+            background-color: white;
+
+            float: left;
+            width: 35px;
+            height: 35px;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        $(function ()
+        {
+            $("#selectable").selectable();
+        });
+    </script>
+    <script>
+        $(function ()
+        {
+            $("#tabs").tabs();
+        });
+    </script>
+</body>
+
+</html>
